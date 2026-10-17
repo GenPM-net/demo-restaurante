@@ -7,3 +7,26 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+<!-- genpm:index:start -->
+## GenPM packages
+- @core/admin@1.0.1 → src/lib/admin (rules: src/lib/admin/AGENTS.md)
+- @core/antispam@1.1.1 → src/lib/antispam (rules: src/lib/antispam/AGENTS.md)
+- @core/auth@1.2.1 → src/lib/auth (rules: src/lib/auth/AGENTS.md)
+- @core/blocks@1.0.1 → src/lib/blocks (rules: src/lib/blocks/AGENTS.md)
+- @core/content@1.1.2 → src/lib/content (rules: src/lib/content/AGENTS.md)
+- @core/contracts@1.0.1 → src/lib/contracts (rules: src/lib/contracts/AGENTS.md)
+- @core/db@1.0.3 → src/lib/db (rules: src/lib/db/AGENTS.md)
+- @core/email@1.0.4 → src/lib/email (rules: src/lib/email/AGENTS.md)
+- @core/forms@1.1.2 → src/lib/forms (rules: src/lib/forms/AGENTS.md)
+- @core/jobs@1.1.2 → src/lib/jobs (rules: src/lib/jobs/AGENTS.md)
+- @core/kit-cms@1.0.3 → src/app/(cms) (rules: src/app/(cms)/AGENTS.md)
+- @core/media@1.1.1 → src/lib/media (rules: src/lib/media/AGENTS.md)
+- @core/rbac@1.0.2 → src/lib/rbac (rules: src/lib/rbac/AGENTS.md)
+- @core/rich-text@1.0.2 → src/lib/rich-text (rules: src/lib/rich-text/AGENTS.md)
+- @core/search@1.0.2 → src/lib/search (rules: src/lib/search/AGENTS.md)
+- @core/seo@1.0.2 → src/lib/seo (rules: src/lib/seo/AGENTS.md)
+- @core/site@1.1.2 → src/lib/site (rules: src/lib/site/AGENTS.md)
+- @core/storage@1.0.2 → src/lib/storage (rules: src/lib/storage/AGENTS.md)
+- @core/ui@1.0.1 → src/lib/ui (rules: src/lib/ui/AGENTS.md)
+<!-- genpm:index:end -->

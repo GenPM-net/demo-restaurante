@@ -12,6 +12,8 @@ páginas por bloques, mediateca, formularios con antispam, menús, SEO, buscador
 
 > Restaurante ficticio. Fotos de [Unsplash](https://unsplash.com) (licencia Unsplash). [English below](#english).
 
+📘 **Guía paso a paso:** [online](docs/MANUAL.md) · [PDF](docs/manual-restaurante.pdf)
+
 ![Portada de Taberna Lumbre](docs/screens/home.jpg)
 
 | Carta | Reservas | Panel |

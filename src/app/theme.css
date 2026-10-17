@@ -1,0 +1,48 @@
+/* Identidad de Taberna Lumbre sobre los tokens de @core/ui: cálida, con serifa y siempre en claro. */
+:root,
+:root[data-theme="light"] {
+  --ui-bg: #faf5ee;
+  --ui-surface: #ffffff;
+  --ui-text: #2b1d14;
+  --ui-muted: #6d5b4d;
+  --ui-border: #eadccb;
+  --ui-primary: #b5441b;
+  --ui-primary-text: #ffffff;
+  --ui-radius: 14px;
+  --ui-font: "Avenir Next", "Helvetica Neue", system-ui, sans-serif;
+  color-scheme: light;
+}
+body.ui-root { background: var(--ui-bg); color: var(--ui-text); }
+h1, h2, h3, .blk-hero__title { font-family: "Iowan Old Style", "Palatino", Georgia, serif; letter-spacing: -0.01em; }
+
+header.site-chrome {
+  position: sticky; top: 0; z-index: 10; display: flex; align-items: center; justify-content: space-between;
+  padding: 1rem max(1.5rem, calc((100vw - 72rem) / 2)); background: rgb(250 245 238 / 0.92); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--ui-border);
+}
+header.site-chrome > a { font-family: "Iowan Old Style", Georgia, serif; font-size: 1.5rem; font-weight: 700; color: var(--ui-text); text-decoration: none; }
+header.site-chrome > a::before { content: "🔥 "; }
+.site-chrome nav ul { display: flex; gap: 1.75rem; list-style: none; margin: 0; padding: 0; }
+.site-chrome nav a { color: var(--ui-text); text-decoration: none; font-weight: 600; }
+.site-chrome nav a:hover { color: var(--ui-primary); }
+
+footer.site-chrome { margin-top: 5rem; padding: 3rem max(1.5rem, calc((100vw - 72rem) / 2)); background: #2b1d14; color: #f3e7da; }
+footer.site-chrome nav a { color: #f3e7da; font-weight: 500; }
+footer.site-chrome .site-info { margin-top: 1.25rem; color: #c9b6a3; font-size: 0.95rem; }
+
+.blk-hero { padding-block: clamp(1.5rem, 5vw, 5rem); }
+.blk-hero__image { aspect-ratio: 4 / 3; object-fit: cover; width: 100%; box-shadow: 0 30px 60px -30px rgb(43 29 20 / 0.55); }
+.blk-gallery img, .blk img:not(.blk-hero__image) { aspect-ratio: 4 / 3; object-fit: cover; width: 100%; }
+.ui-button--primary { box-shadow: 0 10px 24px -12px var(--ui-primary); }
+
+/* @core/blocks 1.0.1: la <section> también lleva la clase .blk-gallery y hereda el grid de la lista. */
+section.blk-gallery { display: block; }
+ul.blk-gallery { grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); }
+section.blk-stats { display: block; }
+dl.blk-stats { max-width: none; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 1.5rem; }
+dl.blk-stats dd { font-family: "Iowan Old Style", Georgia, serif; color: var(--ui-primary); }
+.blk-cta { text-align: center; }
+.blk-cta .blk__actions { justify-content: center; }
+
+/* Anclas de formulario visibles bajo la cabecera fija (mensaje de enviado tras el 303). */
+[id^="form-"], .ui-alert { scroll-margin-top: 6rem; }

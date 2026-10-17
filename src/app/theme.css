@@ -32,15 +32,11 @@ footer.site-chrome .site-info { margin-top: 1.25rem; color: #c9b6a3; font-size: 
 
 .blk-hero { padding-block: clamp(1.5rem, 5vw, 5rem); }
 .blk-hero__image { aspect-ratio: 4 / 3; object-fit: cover; width: 100%; box-shadow: 0 30px 60px -30px rgb(43 29 20 / 0.55); }
-.blk-gallery img, .blk img:not(.blk-hero__image) { aspect-ratio: 4 / 3; object-fit: cover; width: 100%; }
+.blk-gallery__list img, .blk img:not(.blk-hero__image) { aspect-ratio: 4 / 3; object-fit: cover; width: 100%; }
 .ui-button--primary { box-shadow: 0 10px 24px -12px var(--ui-primary); }
 
-/* @core/blocks 1.0.1: la <section> también lleva la clase .blk-gallery y hereda el grid de la lista. */
-section.blk-gallery { display: block; }
-ul.blk-gallery { grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); }
-section.blk-stats { display: block; }
-dl.blk-stats { max-width: none; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 1.5rem; }
-dl.blk-stats dd { font-family: "Iowan Old Style", Georgia, serif; color: var(--ui-primary); }
+.blk-gallery__list { grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); }
+.blk-stats__list dd { font-family: "Iowan Old Style", Georgia, serif; color: var(--ui-primary); }
 .blk-cta { text-align: center; }
 .blk-cta .blk__actions { justify-content: center; }
 

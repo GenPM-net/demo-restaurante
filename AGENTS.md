@@ -13,7 +13,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - @core/admin@1.0.1 → src/lib/admin (rules: src/lib/admin/AGENTS.md)
 - @core/antispam@1.1.1 → src/lib/antispam (rules: src/lib/antispam/AGENTS.md)
 - @core/auth@1.2.1 → src/lib/auth (rules: src/lib/auth/AGENTS.md)
-- @core/blocks@1.0.1 → src/lib/blocks (rules: src/lib/blocks/AGENTS.md)
+- @core/blocks@1.1.0 → src/lib/blocks (rules: src/lib/blocks/AGENTS.md)
 - @core/content@1.1.2 → src/lib/content (rules: src/lib/content/AGENTS.md)
 - @core/contracts@1.0.1 → src/lib/contracts (rules: src/lib/contracts/AGENTS.md)
 - @core/db@1.0.3 → src/lib/db (rules: src/lib/db/AGENTS.md)
@@ -28,5 +28,5 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - @core/seo@1.0.2 → src/lib/seo (rules: src/lib/seo/AGENTS.md)
 - @core/site@1.1.2 → src/lib/site (rules: src/lib/site/AGENTS.md)
 - @core/storage@1.0.2 → src/lib/storage (rules: src/lib/storage/AGENTS.md)
-- @core/ui@1.0.1 → src/lib/ui (rules: src/lib/ui/AGENTS.md)
+- @core/ui@1.0.2 → src/lib/ui (rules: src/lib/ui/AGENTS.md)
 <!-- genpm:index:end -->

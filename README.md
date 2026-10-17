@@ -14,7 +14,7 @@ páginas por bloques, mediateca, formularios con antispam, menús, SEO, buscador
 
 📘 **Guía paso a paso:** [online](docs/MANUAL.md) · [PDF](docs/manual-restaurante.pdf)
 
-![Portada de Taberna Lumbre](docs/screens/home.jpg)
+![Recorrido por la demo: web, reserva y panel](docs/demo.gif)
 
 | Carta | Reservas | Panel |
 |---|---|---|
